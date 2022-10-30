@@ -1,0 +1,21 @@
+{
+  "name": "playkaiser",
+  "version": "1.0.0",
+  "description": "Play the Kaiser card game online.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc-François Cochaux-Laberge",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "bun-types": "^0.1.11",
+    "bun-utilities": "^0.2.1",
+    "esbuild": "^0.15.10",
+    "hono": "^2.2.5",
+    "onchange": "^7.1.0"
+  }
+}
