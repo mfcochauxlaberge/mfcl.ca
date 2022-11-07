@@ -5,6 +5,6 @@ RUN apt-get update && \
 
 WORKDIR /app
 RUN npm install workerd
-COPY config.capnp serve.ts serve.js hello.js src/index.js ./
+COPY config.capnp serve.js cfworker.js ./
 
 CMD ["./node_modules/.bin/workerd", "serve", "config.capnp"]

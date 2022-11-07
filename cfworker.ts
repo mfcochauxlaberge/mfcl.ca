@@ -1,3 +1,5 @@
+import { Hono } from "hono"
+
 /**
  * Welcome to Cloudflare Workers! This is your first worker.
  *
@@ -25,6 +27,6 @@ export default {
     env: Env,
     ctx: ExecutionContext
   ): Promise<Response> {
-    return new Response("Hello World");
+    return new Response("Hello World" + JSON.stringify(Hono) + ".");
   },
 };

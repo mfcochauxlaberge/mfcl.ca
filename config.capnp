@@ -6,7 +6,6 @@ const config :Workerd.Config = (
   ],
 
   sockets = [
-    # Serve HTTP on port 8080.
     ( name = "http",
       address = "*:8080",
       http = (),
@@ -17,7 +16,7 @@ const config :Workerd.Config = (
 
 const mainWorker :Workerd.Worker = (
   modules = [
-    (name = "worker", esModule = embed "index.js")
+    (name = "worker", esModule = embed "cfworker.js")
   ],
   compatibilityDate = "2022-09-16",
 );
