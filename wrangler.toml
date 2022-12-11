@@ -1,0 +1,7 @@
+name = "mfcl-ca"
+main = "src/index.ts"
+compatibility_date = "2022-11-02"
+
+kv_namespaces = [
+  { binding = "KV", id = "43462568c7e7428bac1f6e6ac5dc1217", preview_id = "146baa4aa5e34154980dd732335db1f2" }
+]

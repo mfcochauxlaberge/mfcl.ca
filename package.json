@@ -4,6 +4,7 @@
   "description": "Personal website",
   "main": "index.ts",
   "scripts": {
+    "build:cfworker": "esbuild cfworker.ts --outfile=cfworker.js --bundle",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marc-François Cochaux-Laberge",
